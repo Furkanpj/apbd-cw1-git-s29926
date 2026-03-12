@@ -12,3 +12,4 @@ if (string.IsNullOrWhiteSpace(input))
 
 int[] values = { 2, 4, 6, 8 };
 Console.WriteLine("Average: " + StatisticsHelper.CalculateAverage(values));
+Console.WriteLine("Min: " + StatisticsHelper.CalculateMin(values));
