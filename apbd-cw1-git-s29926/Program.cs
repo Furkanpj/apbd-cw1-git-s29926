@@ -9,5 +9,5 @@ if (string.IsNullOrWhiteSpace(input))
     return;
 }
 
-string[] parts = input.Split(',');
-Console.WriteLine("You entered " + parts.Length + " values.");
+int[] values = { 2, 4, 6, 8 };
+Console.WriteLine("Average: " + StatisticsHelper.CalculateAverage(values));
