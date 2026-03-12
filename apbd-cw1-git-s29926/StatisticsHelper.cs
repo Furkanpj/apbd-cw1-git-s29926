@@ -18,6 +18,9 @@ public static class StatisticsHelper
     }
     public static int CalculateMin(int[] values)
     {
-        return 0;
+        if (values.Length == 0)
+            return 0;
+
+        return values.Min();
     }
 }
