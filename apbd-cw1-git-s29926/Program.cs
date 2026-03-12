@@ -1,4 +1,13 @@
 ﻿using apbd_cw1_git_s29926;
 
-int[] values = { 2, 4, 6, 8 };
-Console.WriteLine("Values: " + string.Join(", ", values));
+Console.WriteLine("Enter numbers separated by commas:");
+string? input = Console.ReadLine();
+
+if (string.IsNullOrWhiteSpace(input))
+{
+    Console.WriteLine("Input cannot be empty.");
+    return;
+}
+
+string[] parts = input.Split(',');
+Console.WriteLine("You entered " + parts.Length + " values.");
