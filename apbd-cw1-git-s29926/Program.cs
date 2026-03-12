@@ -5,7 +5,7 @@ string? input = Console.ReadLine();
 
 if (string.IsNullOrWhiteSpace(input))
 {
-    Console.WriteLine("Input cannot be empty.");
+    Console.WriteLine("Input cannot be empty. Please enter at least one number.");
     return;
 }
 
