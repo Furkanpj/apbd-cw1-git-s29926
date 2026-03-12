@@ -1,6 +1,6 @@
 ﻿using apbd_cw1_git_s29926;
 
-Console.WriteLine("Statistics application started.");
+Console.WriteLine("Statistics application started - main branch version.");
 Console.WriteLine("Enter numbers separated by commas:");
 string? input = Console.ReadLine();
 
